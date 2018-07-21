@@ -38,7 +38,7 @@ public class CheckOut implements Control {
         Integer number = Integer.parseInt(input);
         BookEntity bookentity = new BookEntity();
 
-        if (true){
+        if (findById(number)!=null){
             try {
                 checkOutBook(number);
                 System.out.println("Thank you! Enjoy the book");
@@ -48,7 +48,7 @@ public class CheckOut implements Control {
 
         }
         else {
-            System.out.println("That book is not available.");
+            System.out.println("That book is not existed.");
         }
         return new Menu();
     }

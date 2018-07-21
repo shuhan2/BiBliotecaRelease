@@ -26,8 +26,13 @@ public class CheckOutTest {
 
     }
     @Test
-    public void should_print_FailCheckOut() throws BookInvalidException,NotFoundException{
+    public void should_print_NotExisted() throws BookInvalidException,NotFoundException{
         checkOut.next("3");
+        assertEquals("That book is not existed.\r\n",outContent.toString());
+
+    }
+    public void should_print_FailCheckOut() throws BookInvalidException,NotFoundException{
+        checkOut.next("2");
         assertEquals("That book is not available.",outContent.toString());
 
     }

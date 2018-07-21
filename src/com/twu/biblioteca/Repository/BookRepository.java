@@ -17,7 +17,7 @@ public class BookRepository {
     public void defineData() {
 
         bookList.add(new BookEntity(1, "Refactoring", "Martin Fowler", "summary", 2010, false));
-        bookList.add(new BookEntity(2, "Head First Java", "Kathy Sierra", "summary", 2008, false));
+        bookList.add(new BookEntity(2, "Head First Java", "Kathy Sierra", "summary", 2008, true));
 
     }
 
