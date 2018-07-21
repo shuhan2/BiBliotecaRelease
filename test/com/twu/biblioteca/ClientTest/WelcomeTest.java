@@ -18,7 +18,7 @@ public class WelcomeTest {
     }
     @Test
     public void welcomeTest_should_return_welcome(){
-        welcome.next();
+        welcome.next("1");
         assertEquals("Welcome to biblioteca\r\n",outContent.toString());
     }
 
