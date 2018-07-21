@@ -1,6 +1,8 @@
 package com.twu.biblioteca.Repository;
 
 import com.twu.biblioteca.Entity.BookEntity;
+import com.twu.biblioteca.Exception.BookInvalidException;
+import com.twu.biblioteca.Exception.NotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,18 +12,19 @@ public class BookRepository {
         return bookList;
     }
 
-    List<BookEntity> bookList =  new ArrayList<BookEntity>();
+    public List<BookEntity> bookList =  new ArrayList<BookEntity>();
 
+    public void defineData() {
 
-    //        bookList.add(new BookEntity(2, "Test-driven Development", "Kent Beck","Test-driven development ", 2003, false));
-//    private BookRepository(){
-//        bookL
-// ist.add(new BookEntity(1, "Head First Java", "Kathy Sierra", "Java", 2008, false));
-//        bookList.add(new BookEntity(2, "Test-driven Development", "Kent Beck","Test-driven development ", 2003, false));
-//    }
-    public BookRepository(){
+        bookList.add(new BookEntity(1, "Refactoring", "Martin Fowler", "summary", 2010, false));
+        bookList.add(new BookEntity(2, "Head First Java", "Kathy Sierra", "summary", 2008, false));
 
     }
+
+    public BookRepository(){
+        defineData();
+    }
+
 
 
 

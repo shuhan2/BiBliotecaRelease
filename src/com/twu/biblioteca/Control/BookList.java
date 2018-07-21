@@ -6,6 +6,7 @@ public class BookList implements Control{
     private BookRepository bookRepository = new BookRepository();
     @Override
     public Control next(String string){
+        bookRepository.defineData();
         System.out.println(bookRepository.getBookList());
         return null;
     }

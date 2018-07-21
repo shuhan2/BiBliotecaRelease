@@ -59,12 +59,12 @@ public class BookEntity {
         this.publishYear = publishYear;
     }
 
-    public Boolean getIdMoveOut() {
+    public Boolean getIsMoveOut() {
         return isMoveOut;
     }
 
-    public void setIdMoveOut(Boolean idMoveOut) {
-        this.isMoveOut = idMoveOut;
+    public void setIsMoveOut(Boolean isMoveOut) {
+        this.isMoveOut = isMoveOut;
     }
 
 
