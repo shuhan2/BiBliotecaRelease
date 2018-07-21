@@ -21,7 +21,7 @@ Checkout Book - As a librarian, I would like customers to be able to check-out a
 * Unsuccessful Return - As a customer, I would like to be notified if the book I am returning has not been added to this library by seeing the message, “That is not a valid book to return.”, so that I can return it to the correct library or fix my spelling error.  
 ### Technical Requirements  
 * All the code must be developed using TDD.
-Biblioteca needs to be a console application. Use your own imagination for any UI elements  
+* Biblioteca needs to be a console application. Use your own imagination for any UI elements  
 * We do not need a database for this release.  
 ### Assignment Setup  
 * Download and extract the Biblioteca skeleton code.  
