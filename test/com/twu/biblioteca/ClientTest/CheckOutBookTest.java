@@ -1,6 +1,6 @@
 package com.twu.biblioteca.ClientTest;
 
-import com.twu.biblioteca.Control.Cilent.CheckOut;
+import com.twu.biblioteca.Control.Cilent.CheckOutBook;
 import com.twu.biblioteca.Exception.BookInvalidException;
 import com.twu.biblioteca.Exception.NotFoundException;
 import org.junit.Before;
@@ -11,8 +11,8 @@ import java.io.PrintStream;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class CheckOutTest {
-    private CheckOut checkOut = new CheckOut();
+public class CheckOutBookTest {
+    private CheckOutBook checkOut = new CheckOutBook();
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     @Before
     public void setUpStreams() {

@@ -7,7 +7,7 @@ import com.twu.biblioteca.Repository.BookRepository;
 
 import java.util.List;
 
-public class CheckOut implements Control {
+public class CheckOutBook implements Control {
     private BookRepository bookRepository = new BookRepository();
     private List<BookEntity> bookList = bookRepository.getBookList();
     public BookEntity findById(int id) {
