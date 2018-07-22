@@ -1,12 +1,12 @@
-package com.twu.biblioteca.Control;
+package com.twu.biblioteca.Control.Cilent;
 
 import com.twu.biblioteca.Repository.BookRepository;
 
-public class BookList implements Control{
+public class BookList implements Control {
     private BookRepository bookRepository = new BookRepository();
     @Override
     public Control next(String string){
-        bookRepository.defineData();
+
         System.out.println(bookRepository.getBookList());
         return null;
     }

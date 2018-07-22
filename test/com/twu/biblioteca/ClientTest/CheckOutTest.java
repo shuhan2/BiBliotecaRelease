@@ -1,6 +1,6 @@
 package com.twu.biblioteca.ClientTest;
 
-import com.twu.biblioteca.Control.CheckOut;
+import com.twu.biblioteca.Control.Cilent.CheckOut;
 import com.twu.biblioteca.Exception.BookInvalidException;
 import com.twu.biblioteca.Exception.NotFoundException;
 import org.junit.Before;

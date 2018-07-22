@@ -1,8 +1,7 @@
 package com.twu.biblioteca.ClientTest;
 
-import com.twu.biblioteca.Control.BookList;
-import com.twu.biblioteca.Control.Menu;
-import com.twu.biblioteca.Control.Welcome;
+import com.twu.biblioteca.Control.Cilent.BookList;
+import com.twu.biblioteca.Control.Cilent.Menu;
 import com.twu.biblioteca.Exception.InputException;
 import com.twu.biblioteca.Repository.BookRepository;
 import org.junit.Before;

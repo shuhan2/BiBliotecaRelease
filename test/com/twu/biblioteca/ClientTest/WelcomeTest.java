@@ -1,6 +1,6 @@
 package com.twu.biblioteca.ClientTest;
 
-import com.twu.biblioteca.Control.Welcome;
+import com.twu.biblioteca.Control.Cilent.Welcome;
 import org.junit.Before;
 import org.junit.Test;
 
