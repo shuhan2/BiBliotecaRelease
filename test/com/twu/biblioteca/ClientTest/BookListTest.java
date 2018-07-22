@@ -16,7 +16,7 @@ public class BookListTest {
     private BookList bookList = new BookList();
     private Menu menu = new Menu();
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private BookRepository bookRepository = new BookRepository();
+    private BookRepository bookRepository = BookRepository.getValues();
     @Before
     public void setUpStreams() {
         System.setOut(new PrintStream(outContent));
