@@ -1,5 +1,6 @@
 package com.twu.biblioteca.Control.Cilent;
 
+import com.twu.biblioteca.Control.Control;
 import com.twu.biblioteca.Exception.InputException;
 
 public class Menu implements Control {

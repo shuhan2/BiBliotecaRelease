@@ -1,12 +1,13 @@
 package com.twu.biblioteca.Control.Cilent;
 
 import com.twu.biblioteca.Control.Common;
+import com.twu.biblioteca.Control.Control;
 import com.twu.biblioteca.Entity.BookEntity;
 import com.twu.biblioteca.Entity.MovieEntity;
 import com.twu.biblioteca.Exception.BookInvalidException;
 import com.twu.biblioteca.Exception.NotFoundException;
 
-public class CheckOutMovie implements Control{
+public class CheckOutMovie implements Control {
     private Common common = new Common();
     @Override
     public Control next(String input) throws NotFoundException{
