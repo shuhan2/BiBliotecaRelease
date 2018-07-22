@@ -16,7 +16,7 @@ import static org.junit.Assert.assertThat;
 
 public class ReturnBookAdminTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    private BookRepository bookRepository = new BookRepository();
+    private BookRepository bookRepository = BookRepository.getValues();
     private ReturnBookAdmin returnBookAdmin = new ReturnBookAdmin();
     private BookEntity bookEntity = new BookEntity();
     private Common common = new Common();
@@ -31,6 +31,7 @@ public class ReturnBookAdminTest {
         bookEntity = common.findById(2);
         bookEntity.setIsMoveOut(false);
         assertEquals(bookEntity.getIsMoveOut().toString(),bookRepository.getBookList().get(1).getIsMoveOut().toString());
-//        assertEquals(bookEntity,);
+
     }
+
 }

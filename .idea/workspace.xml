@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73da3dc4-2f44-4ee3-954f-4e4da23d0d07" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Administrator/ReturnBookAdmin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/Common.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/Control.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Control/BookList.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Control/CheckOut.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Control/Logout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Control/Menu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Control/ReturnBook.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Control/Welcome.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Repository/BookRepository.class" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Repository/BookRepository.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/BookListTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/BookListTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/CheckOutTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/CheckOutTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/ReturnBookTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/ReturnBookTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/WelcomeTest.class" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/ClientTest/WelcomeTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/BookList.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/BookList.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/CheckOut.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/CheckOut.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Logout.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/Logout.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Menu.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/Menu.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/ReturnBook.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/ReturnBook.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Welcome.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/Welcome.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/BookListTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/BookListTest.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/CheckOutTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/CheckOutTest.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/ReturnBookTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/ReturnBookTest.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/WelcomeTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/ClientTest/WelcomeTest.java" />
+      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +18,8 @@
       <file leaf-file-name="BookRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="135">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#373#374#0" expanded="true" />
@@ -76,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReturnBookAdmin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReturnBookAdmin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Control/Administrator/ReturnBookAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-50">
@@ -88,15 +63,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReturnBookAdminTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReturnBookAdminTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="18" column="70" lean-forward="false" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,10 +190,10 @@
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Control.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/ReturnBook.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Common.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/BookList.java" />
         <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Control/Administrator/ReturnBookAdmin.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java" />
       </list>
     </option>
   </component>
@@ -620,14 +595,11 @@
       <workItem from="1532175054046" duration="3176000" />
       <workItem from="1532178346460" duration="7618000" />
       <workItem from="1532186693010" duration="1584000" />
-      <workItem from="1532216863029" duration="5749000" />
+      <workItem from="1532216863029" duration="6893000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReturnBookAdminTest_should_Update_BookStatus - 2018.07.22 at 09h 04m 40s.xml">
-      <configuration name="ReturnBookAdminTest.should_Update_BookStatus" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReturnBookAdminTest_should_Update_BookStatus - 2018.07.22 at 09h 13m 26s.xml">
       <configuration name="ReturnBookAdminTest.should_Update_BookStatus" configurationId="JUnit" />
     </history-entry>
@@ -655,9 +627,12 @@
     <history-entry file="ReturnBookAdminTest_should_Update_BookStatus - 2018.07.22 at 09h 23m 57s.xml">
       <configuration name="ReturnBookAdminTest.should_Update_BookStatus" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReturnBookAdminTest_should_Update_BookStatus - 2018.07.22 at 09h 44m 25s.xml">
+      <configuration name="ReturnBookAdminTest.should_Update_BookStatus" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27431000" />
+    <option name="totallyTimeSpent" value="28575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1124,18 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Control/Control.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1191,20 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Control/Cilent/BookList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1219,6 +1168,32 @@
           <caret line="11" column="62" lean-forward="false" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/biblioteca/Repository/BookRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/twu/biblioteca/administratorTest/ReturnBookAdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="18" column="70" lean-forward="false" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
           </folding>
         </state>
       </provider>
